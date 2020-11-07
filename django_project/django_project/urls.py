@@ -21,6 +21,8 @@ from django.contrib.auth import views as auth_views
 from django.conf import settings
 from django.conf.urls.static import static
 
+# URL paths for finding the views for certain pages.
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', user_views.register, name="register"),
